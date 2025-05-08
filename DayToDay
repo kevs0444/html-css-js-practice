@@ -1,0 +1,42 @@
+| Day | Topic                 | Description                                      | Practice Task                                              |
+| --- | --------------------- | ------------------------------------------------ | ---------------------------------------------------------- |
+| 1   | Introduction to HTML  | Learn what HTML is, structure of HTML document   | Create a basic HTML page with `<html>`, `<head>`, `<body>` |
+| 2   | Headings & Paragraphs | Use `<h1>` to `<h6>` and `<p>`                   | Write an article with headings and paragraphs              |
+| 3   | Formatting Text       | Use `<strong>`, `<em>`, `<br>`, `<hr>`           | Style a paragraph using formatting tags                    |
+| 4   | Links                 | Use `<a>` to link pages or external sites        | Link your page to Google and another page                  |
+| 5   | Images                | Use `<img>` with `src` and `alt`                 | Insert 2 images with alt text                              |
+| 6   | Lists                 | Create ordered `<ol>` and unordered `<ul>` lists | Make a shopping list and a recipe step list                |
+| 7   | Review & Mini Project | Combine all learned elements                     | Create a personal profile page                             |
+
+| Day | Topic                    | Description                                       | Practice Task                                   |
+| --- | ------------------------ | ------------------------------------------------- | ----------------------------------------------- |
+| 8   | HTML Attributes          | Understand attributes like `id`, `class`, `style` | Add `id` and `class` to headings and paragraphs |
+| 9   | Tables                   | Learn `<table>`, `<tr>`, `<td>`, `<th>`           | Make a weekly schedule table                    |
+| 10  | Forms: Basics            | Use `<form>`, `<input>`, `<label>`                | Create a login form                             |
+| 11  | Forms: Types             | Add radio, checkbox, password fields              | Create a registration form                      |
+| 12  | Forms: Select & Textarea | Use `<select>` and `<textarea>`                   | Create a feedback form                          |
+| 13  | Div & Span               | Understand block vs inline containers             | Wrap parts of a page using `div` and `span`     |
+| 14  | Review & Practice        | Practice full form layout                         | Create a contact form page                      |
+
+| Day | Topic                      | Description                                          | Practice Task                                                   |
+| --- | -------------------------- | ---------------------------------------------------- | --------------------------------------------------------------- |
+| 15  | Embedding Videos           | Use `<video>` and `<iframe>`                         | Embed a YouTube video                                           |
+| 16  | Audio                      | Use `<audio>` tag                                    | Add background music to a page                                  |
+| 17  | HTML5 Semantic Tags        | Use `<header>`, `<footer>`, `<article>`, `<section>` | Create a blog layout with semantic elements                     |
+| 18  | Meta Tags                  | Add SEO and viewport tags in `<head>`                | Add metadata and keywords to your page                          |
+| 19  | Favicon                    | Add a favicon to your page                           | Use a sample `.ico` file and link in `<head>`                   |
+| 20  | Forms: Advanced Attributes | Use `required`, `pattern`, `placeholder`             | Enhance your form with validations                              |
+| 21  | Review & Mini Project      | Combine semantic and multimedia                      | Make a small landing page with video, form, and semantic layout |
+
+| Day | Topic                      | Description                             | Practice Task                                          |
+| --- | -------------------------- | --------------------------------------- | ------------------------------------------------------ |
+| 22  | Accessibility (a11y)       | Add `aria` attributes, proper labels    | Make a form accessible with screen reader hints        |
+| 23  | Canvas Intro               | Use `<canvas>` for drawing              | Draw a basic shape using HTML canvas                   |
+| 24  | SVG                        | Embed scalable vector graphics          | Add an inline SVG logo                                 |
+| 25  | Data Attributes            | Use `data-*` attributes                 | Create buttons with data attributes                    |
+| 26  | HTML APIs (Geo, Drag-drop) | Intro to geolocation and drag/drop      | Create a draggable image                               |
+| 27  | Web Storage                | Use `localStorage` and `sessionStorage` | Save and retrieve user name from localStorage          |
+| 28  | Integrating CSS            | Link external, internal, inline CSS     | Style a page with all three methods                    |
+| 29  | Integrating JavaScript     | Use `<script>` to add JS                | Alert user on button click                             |
+| 30  | Final Project              | Portfolio or resume website             | Build a full personal website using everything learned |
+
