@@ -1,13 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <h1>Making forms using select and textarea</h1>
-    </head>
-    <body>
-        <h1>Feedback User</h1>
-        <form>
-            <h4>Select</h4><br>
-            <input type="Select">
-        </form>
-    </body>
+<head>
+    <title>Feedback Form</title>
+</head>
+<body>
+
+    <h1>Feedback Form</h1>
+
+    <form action="#" method="post">
+        <!-- Name Input -->
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <!-- Experience Rating -->
+        <label for="experience">How was your experience?</label><br>
+        <select id="experience" name="experience" required>
+            <option value="">--Select--</option>
+            <option value="excellent">Excellent</option>
+            <option value="good">Good</option>
+            <option value="average">Average</option>
+            <option value="poor">Poor</option>
+        </select><br><br>
+
+        <!-- Suggestions -->
+        <label for="suggestions">Any suggestions?</label><br>
+        <textarea id="suggestions" name="suggestions" rows="5" cols="40" placeholder="Enter your feedback here..."></textarea><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
 </html>
