@@ -6,29 +6,16 @@
 <body>
 
     <h1>Feedback Form</h1>
-
-    <form action="#" method="post">
-        <!-- Name Input -->
-        <label for="name">Your Name:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
-
-        <!-- Experience Rating -->
-        <label for="experience">How was your experience?</label><br>
-        <select id="experience" name="experience" required>
-            <option value="">--Select--</option>
-            <option value="excellent">Excellent</option>
-            <option value="good">Good</option>
-            <option value="average">Average</option>
-            <option value="poor">Poor</option>
-        </select><br><br>
-
-        <!-- Suggestions -->
-        <label for="suggestions">Any suggestions?</label><br>
-        <textarea id="suggestions" name="suggestions" rows="5" cols="40" placeholder="Enter your feedback here..."></textarea><br><br>
-
-        <!-- Submit Button -->
-        <input type="submit" value="Submit">
+    <form>
+       <label for="color">Choose a color:</label> 
+       <select id="color" name="color">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="yellow">Yellow</option>
+       </select>
+       <label for="message">Your Message</label><br>
+       <textarea id="message" name="message" rows="4" cols="50" placeholder="Write here..."></textarea>
     </form>
-
+   
 </body>
 </html>
