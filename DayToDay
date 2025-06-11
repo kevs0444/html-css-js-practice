@@ -1,204 +1,443 @@
-Below is a 7-day step-by-step guide to kickstart your journey to mastering HTML, designed for a complete beginner. Each day builds on the previous one, assuming you’ll dedicate 2–3 hours daily (split between learning and practice). The focus is on understanding HTML5 fundamentals, semantic structure, and practical application through small projects. By the end, you’ll have a solid foundation to create static web pages and be ready to move to CSS.
+Below is a detailed 56-day, day-by-day roadmap to upskill in web development during your school vacation (June 11, 2025 – August 4, 2025), focusing on frontend (HTML, CSS, JavaScript) and transitioning to backend (PHP, MySQL) to align with your full-stack developer goal. Each day includes 4–5 hours of structured learning and practice, split into tutorials, coding, and review/community engagement. The plan is intensive, project-based, and builds progressively, starting with the HTML foundation you requested. I’ve included a sample HTML project for Day 1 and ensured the roadmap is practical for 4–5 hours daily. By the end, you’ll have a deployed portfolio with full-stack projects.
 
 ---
 
+### 56-Day Frontend-to-Full-Stack Roadmap (June 11, 2025 – August 4, 2025)
 
+**Assumptions**:
+- **Time**: 4–5 hours/day, 6 days/week (24–30 hours/week).
+- **Tools**: VS Code, Chrome (DevTools), GitHub, XAMPP (for PHP), Netlify/Heroku.
+- **Goal**: Master HTML, CSS, JavaScript; start PHP, MySQL; build a full-stack portfolio.
+- **Resources**: FreeCodeCamp, MDN Web Docs, W3Schools, The Net Ninja (YouTube), CSS-Tricks, JavaScript.info, PHP.net, GitHub Docs.
 
-# 7-Day HTML Mastery Guide for Beginners
-
-This guide is for complete beginners aiming to master HTML basics in 7 days, with 2–3 hours of daily study and practice. You’ll learn through tutorials, exercises, and small projects. Tools needed: a text editor (e.g., VS Code) and a browser (e.g., Chrome).
-
----
-
-## Day 1: HTML Basics & Setup (2–3 hours)
-**Goal**: Understand HTML structure and create your first webpage.
-
-- **Learn (1 hour)**:
-  - Watch/read: What is HTML? How browsers render HTML.
-  - Study basic syntax: tags, elements, attributes.
-  - Learn core tags: `<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`, `<title>`.
-  - Understand nesting and hierarchy.
-  - **Resources**:
-    - FreeCodeCamp: “HTML Full Course” (first 30 min)
-    - MDN Web Docs: “Getting started with HTML”
-    - W3Schools: “HTML Introduction”
-
-- **Practice (1–2 hours)**:
-  - Set up VS Code and create an `index.html` file.
-  - Write a basic HTML page with:
-    - `<!DOCTYPE html>` declaration
-    - `<html>`, `<head>`, `<title>`, and `<body>` tags
-    - A heading (`<h1>`) and paragraph (`<p>`)
-  - Open in a browser to see the result.
-  - Experiment: Add more paragraphs and change text.
-  - **Exercise**: Create a page introducing yourself (name, hobbies).
-
-- **Output**: A simple HTML file displaying text in a browser.
+**Daily Structure** (4–5 hours):
+- **1.5–2 hours**: Tutorials/docs/videos (theory and examples).
+- **2–3 hours**: Coding exercises/projects (hands-on practice).
+- **0.5–1 hour**: Review code, debug, or engage with X #WebDev community.
 
 ---
 
-## Day 2: Text Formatting & Lists (2–3 hours)
-**Goal**: Format text and create lists.
+#### Phase 1: Frontend Foundations (Days 1–28)
+**Goal**: Build responsive, interactive websites with HTML, CSS, JavaScript.
 
-- **Learn (1 hour)**:
-  - Study text tags: `<h1>`–`<h6>`, `<p>`, `<strong>`, `<em>`, `<br>`, `<hr>`.
-  - Learn lists: ordered (`<ol>`), unordered (`<ul>`), list items (`<li>`).
-  - Understand inline vs. block elements.
-  - **Resources**:
-    - W3Schools: “HTML Text Formatting” and “HTML Lists”
-    - MDN: “HTML text fundamentals”
+##### Week 1: HTML & CSS Basics (Days 1–7)
+**Day 1: HTML Structure & Setup (4–5 hours)**
+- **Learn (1.5–2 hours)**: HTML basics (`<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`), tags, attributes, semantic elements (`<header>`, `<main>`), text (`<h1>–<h6>`, `<p>`).
+  - Resources: FreeCodeCamp (HTML Basics), MDN (“Getting started with HTML”).
+- **Practice (2–3 hours)**: Set up VS Code, create `index.html`, build an “About Me” page with headings, paragraphs, and semantic tags.
+- **Mini-Project**: Portfolio homepage (see sample below).
+- **Review (0.5–1 hour)**: Open in Chrome, check with DevTools, share progress on X (#WebDev).
 
-- **Practice (1–2 hours)**:
-  - Create a new HTML file.
-  - Write a page with:
-    - Headings of different levels.
-    - Bold and italic text in a paragraph.
-    - A bulleted list of your favorite foods.
-    - A numbered list of your top 3 goals.
-  - Experiment: Nest a list inside another list (e.g., sub-items).
-  - **Exercise**: Build a “Recipe Page” with a title, ingredients list (`<ul>`), and steps (`<ol>`).
+**Day 2: HTML Lists & Links (4–5 hours)**
+- **Learn (1.5–2 hours)**: Lists (`<ul>`, `<ol>`, `<li>`), links (`<a>`, `href`, absolute/relative URLs), images (`<img>`, `alt`).
+  - Resources: W3Schools (HTML Lists, Links, Images).
+- **Practice (2–3 hours)**: Add a list of skills/hobbies and links (external, internal, email) to your portfolio. Add an image (e.g., placeholder from Unsplash).
+- **Mini-Project**: Hobbies page with a list and linked images.
+- **Review (0.5–1 hour)**: Test links/images, post progress on X.
 
-- **Output**: A recipe webpage with formatted text and lists.
+**Day 3: HTML Forms & Semantics (4–5 hours)**
+- **Learn (1.5–2 hours)**: Forms (`<form>`, `<input>`, `<textarea>`, `<select>`, `<button>`), labels, semantic tags (`<section>`, `<article>`).
+  - Resources: MDN (“Web forms”), FreeCodeCamp (Forms).
+- **Practice (2–3 hours)**: Add a contact form to your portfolio. Refactor Day 1–2 pages with semantic tags.
+- **Mini-Project**: Contact page with a form (name, email, message).
+- **Review (0.5–1 hour)**: Test form validation, check semantics with DevTools.
+
+**Day 4: CSS Basics (4–5 hours)**
+- **Learn (1.5–2 hours)**: CSS syntax, selectors, properties (color, font, margin, padding), box model.
+  - Resources: CSS-Tricks (Box Model), W3Schools (CSS Intro).
+- **Practice (2–3 hours)**: Style your portfolio (colors, fonts, centered content). Create a separate `styles.css` file.
+- **Mini-Project**: Styled portfolio homepage with consistent colors.
+- **Review (0.5–1 hour)**: Check rendering, share on X.
+
+**Day 5: CSS Layouts – Flexbox (4–5 hours)**
+- **Learn (1.5–2 hours)**: Flexbox (flex container, items, properties like `justify-content`, `align-items`).
+  - Resources: CSS-Tricks (Flexbox Guide), FreeCodeCamp (Flexbox).
+- **Practice (2–3 hours)**: Create a responsive navbar and project cards using Flexbox for your portfolio.
+- **Mini-Project**: Portfolio with Flexbox-based layout.
+- **Review (0.5–1 hour)**: Test on mobile view (DevTools), post progress.
+
+**Day 6: CSS Layouts – Grid & Responsive Design (4–5 hours)**
+- **Learn (1.5–2 hours)**: CSS Grid (grid-template, rows/columns), media queries, relative units (%, rem, vw).
+  - Resources: CSS-Tricks (Grid Guide), MDN (Responsive Design).
+- **Practice (2–3 hours)**: Build a grid-based landing page (e.g., hero, features, footer). Add media queries for mobile.
+- **Mini-Project**: Responsive landing page with Grid.
+- **Review (0.5–1 hour)**: Test responsiveness, share on X.
+
+**Day 7: CSS Advanced & Git Intro (4–5 hours)**
+- **Learn (1.5–2 hours)**: Transitions, keyframes, pseudo-classes (`:hover`), Git basics (commit, push).
+  - Resources: Josh W Comeau (CSS), GitHub Docs (Git).
+- **Practice (2–3 hours)**: Add animations to your portfolio (e.g., hover effects). Set up a GitHub repo and push your code.
+- **Mini-Project**: Animated portfolio pushed to GitHub.
+- **Review (0.5–1 hour)**: Verify Git commits, test animations.
+
+##### Week 2: JavaScript Basics (Days 8–14)
+**Day 8: JavaScript Syntax (4–5 hours)**
+- **Learn (1.5–2 hours)**: Variables, data types, conditionals, loops.
+  - Resources: JavaScript.info (Basics), FreeCodeCamp (JavaScript).
+- **Practice (2–3 hours)**: Write scripts to log variables, create a simple number-guessing game.
+- **Mini-Project**: Number-guessing game in browser console.
+- **Review (0.5–1 hour)**: Debug with DevTools, post progress.
+
+**Day 9: JavaScript Functions & Arrays (4–5 hours)**
+- **Learn (1.5–2 hours)**: Functions, arrays, methods (e.g., `push`, `map`).
+  - Resources: JavaScript.info (Functions, Arrays).
+- **Practice (2–3 hours)**: Create functions to manipulate arrays (e.g., filter skills list). Add a button to your portfolio that triggers a function.
+- **Mini-Project**: Portfolio with a button to display skills array.
+- **Review (0.5–1 hour)**: Test functionality, share on X.
+
+**Day 10: JavaScript DOM Manipulation (4–5 hours)**
+- **Learn (1.5–2 hours)**: DOM (`querySelector`, `innerHTML`), event listeners (click, input).
+  - Resources: MDN (DOM), FreeCodeCamp (DOM).
+- **Practice (2–3 hours)**: Add a dark mode toggle to your portfolio. Update text dynamically on click.
+- **Mini-Project**: Portfolio with dark mode toggle.
+- **Review (0.5–1 hour)**: Debug events, post progress.
+
+**Day 11: JavaScript ES6+ Features (4–5 hours)**
+- **Learn (1.5–2 hours)**: Arrow functions, destructuring, template literals, spread operator.
+  - Resources: JavaScript.info (ES6), The Net Ninja (ES6).
+- **Practice (2–3 hours)**: Refactor Day 10 code with ES6. Build a simple to-do list (add tasks).
+- **Mini-Project**: To-do list with ES6 features.
+- **Review (0.5–1 hour)**: Test functionality, share on X.
+
+**Day 12: JavaScript Forms & Validation (4–5 hours)**
+- **Learn (1.5–2 hours)**: Form events, input validation, preventing default.
+  - Resources: MDN (Forms), FreeCodeCamp (Forms).
+- **Practice (2–3 hours)**: Add validation to your portfolio’s contact form (e.g., check email format).
+- **Mini-Project**: Portfolio with validated contact form.
+- **Review (0.5–1 hour)**: Test form, post progress.
+
+**Day 13: JavaScript Debugging & Review (4–5 hours)**
+- **Learn (1.5–2 hours)**: Debugging with DevTools (breakpoints, console), error handling.
+  - Resources: MDN (Debugging), Traversy Media (Debugging).
+- **Practice (2–3 hours)**: Debug your to-do list and portfolio. Add try-catch to form validation.
+- **Mini-Project**: Debugged portfolio and to-do list.
+- **Review (0.5–1 hour)**: Verify fixes, share on X.
+
+**Day 14: JavaScript Project – To-Do List (4–5 hours)**
+- **Learn (1.5–2 hours)**: Review DOM, events, arrays.
+  - Resources: FreeCodeCamp (Project tutorials).
+- **Practice (2–3 hours)**: Build a complete to-do list (add, delete, mark complete).
+- **Mini-Project**: Functional to-do list.
+- **Review (0.5–1 hour)**: Test features, push to GitHub.
+
+##### Week 3: JavaScript Intermediate (Days 15–21)
+**Day 15: Async JavaScript – Callbacks (4–5 hours)**
+- **Learn (1.5–2 hours)**: Callbacks, setTimeout, setInterval.
+  - Resources: JavaScript.info (Async), MDN (Callbacks).
+- **Practice (2–3 hours)**: Create a countdown timer using setInterval.
+- **Mini-Project**: Timer app.
+- **Review (0.5–1 hour)**: Test timer, share on X.
+
+**Day 16: Async JavaScript – Promises (4–5 hours)**
+- **Learn (1.5–2 hours)**: Promises, `.then`, `.catch`.
+  - Resources: MDN (Promises), The Net Ninja (Promises).
+- **Practice (2–3 hours)**: Fetch mock data with promises (e.g., simulate API call).
+- **Mini-Project**: Display mock API data in portfolio.
+- **Review (0.5–1 hour)**: Debug promises, post progress.
+
+**Day 17: Async JavaScript – Async/Await (4–5 hours)**
+- **Learn (1.5–2 hours)**: Async/await, error handling with try-catch.
+  - Resources: MDN (Async/Await), FreeCodeCamp (Async).
+- **Practice (2–3 hours)**: Refactor Day 16 code to use async/await.
+- **Mini-Project**: Updated portfolio with async data.
+- **Review (0.5–1 hour)**: Test async, share on X.
+
+**Day 18: APIs & Fetch (4–5 hours)**
+- **Learn (1.5–2 hours)**: Fetch API, JSON, public APIs (e.g., REST Countries).
+  - Resources: MDN (Fetch), The Net Ninja (APIs).
+- **Practice (2–3 hours)**: Fetch and display country data in a list.
+- **Mini-Project**: Country info app.
+- **Review (0.5–1 hour)**: Test API calls, push to GitHub.
+
+**Day 19: JavaScript Project – Weather App (4–5 hours)**
+- **Learn (1.5–2 hours)**: Review fetch, JSON parsing.
+  - Resources: OpenWeather API docs.
+- **Practice (2–3 hours)**: Build a weather app using OpenWeather API.
+- **Mini-Project**: Weather app displaying temperature and city.
+- **Review (0.5–1 hour)**: Test app, share on X.
+
+**Day 20: JavaScript Tools – npm & Vite (4–5 hours)**
+- **Learn (1.5–2 hours)**: npm basics, Vite setup, module bundling.
+  - Resources: Traversy Media (npm, Vite).
+- **Practice (2–3 hours)**: Set up your weather app with Vite. Add dependencies (e.g., axios).
+- **Mini-Project**: Vite-based weather app.
+- **Review (0.5–1 hour)**: Verify setup, push to GitHub.
+
+**Day 21: JavaScript Deployment (4–5 hours)**
+- **Learn (1.5–2 hours)**: Netlify deployment, Git branching.
+  - Resources: Netlify Docs, GitHub Docs.
+- **Practice (2–3 hours)**: Deploy your to-do list and weather app to Netlify.
+- **Mini-Project**: Deployed JavaScript apps.
+- **Review (0.5–1 hour)**: Test live sites, share links on X.
+
+##### Week 4: Frontend Capstone (Days 22–28)
+**Day 22: CSS Framework – Tailwind (4–5 hours)**
+- **Learn (1.5–2 hours)**: Tailwind CSS setup, utility classes, responsive design.
+  - Resources: Tailwind Docs, FreeCodeCamp (Tailwind).
+- **Practice (2–3 hours)**: Restyle your portfolio with Tailwind.
+- **Mini-Project**: Tailwind-styled portfolio.
+- **Review (0.5–1 hour)**: Test responsiveness, post progress.
+
+**Day 23: Intro to React (4–5 hours)**
+- **Learn (1.5–2 hours)**: React basics (components, JSX), CDN setup.
+  - Resources: React.dev (Quick Start), Traversy Media (React).
+- **Practice (2–3 hours)**: Create a simple React component for your portfolio (e.g., project card).
+- **Mini-Project**: Portfolio with React components.
+- **Review (0.5–1 hour)**: Test components, share on X.
+
+**Day 24: React State & Props (4–5 hours)**
+- **Learn (1.5–2 hours)**: State, props, event handling in React.
+  - Resources: React.dev (State, Props).
+- **Practice (2–3 hours)**: Add a counter or toggle component to your portfolio.
+- **Mini-Project**: Interactive portfolio with React.
+- **Review (0.5–1 hour)**: Debug React, push to GitHub.
+
+**Day 25: Accessibility (4–5 hours)**
+- **Learn (1.5–2 hours)**: ARIA, alt text, keyboard navigation, semantic HTML.
+  - Resources: MDN (Accessibility), WebAIM.
+- **Practice (2–3 hours)**: Add accessibility features to your portfolio (e.g., ARIA labels, focus states).
+- **Mini-Project**: Accessible portfolio.
+- **Review (0.5–1 hour)**: Test with Lighthouse, share progress.
+
+**Day 26: Performance Optimization (4–5 hours)**
+- **Learn (1.5–2 hours)**: Optimize images, minify CSS/JS, Lighthouse audits.
+  - Resources: Google Lighthouse Docs, MDN (Performance).
+- **Practice (2–3 hours)**: Optimize your portfolio and weather app for speed.
+- **Mini-Project**: Optimized portfolio.
+- **Review (0.5–1 hour)**: Check Lighthouse scores, post on X.
+
+**Day 27: Frontend Project – Dashboard (4–5 hours)**
+- **Learn (1.5–2 hours)**: Review Tailwind, React, APIs.
+  - Resources: Frontend Mentor (Dashboard projects).
+- **Practice (2–3 hours)**: Build a dashboard (e.g., task or weather dashboard).
+- **Mini-Project**: Functional dashboard.
+- **Review (0.5–1 hour)**: Test features, push to GitHub.
+
+**Day 28: Frontend Deployment & Review (4–5 hours)**
+- **Learn (1.5–2 hours)**: Review deployment, GitHub READMEs.
+  - Resources: Netlify Docs, GitHub Docs.
+- **Practice (2–3 hours)**: Deploy dashboard to Netlify, write READMEs.
+- **Mini-Project**: Deployed portfolio with 3 projects (portfolio, to-do, dashboard).
+- **Review (0.5–1 hour)**: Verify live site, share on X.
 
 ---
 
-## Day 3: Links & Images (2–3 hours)
-**Goal**: Add navigation and media to your pages.
+#### Phase 2: Backend Foundations (Days 29–49)
+**Goal**: Learn PHP and MySQL for dynamic apps.
 
-- **Learn (1 hour)**:
-  - Study links: `<a>` tag, `href` attribute, absolute vs. relative URLs.
-  - Learn images: `<img>` tag, `src`, `alt`, and `title` attributes.
-  - Understand accessibility (e.g., meaningful `alt` text).
-  - **Resources**:
-    - FreeCodeCamp: “HTML Links and Images” (video or text)
-    - MDN: “Links” and “Images in HTML”
+##### Week 5: PHP Basics (Days 29–35)
+**Day 29: PHP Setup & Syntax (4–5 hours)**
+- **Learn (1.5–2 hours)**: Install XAMPP, PHP syntax (variables, conditionals, loops).
+  - Resources: PHP.net, W3Schools (PHP Intro).
+- **Practice (2–3 hours)**: Write PHP scripts to output text, perform calculations.
+- **Mini-Project**: PHP page displaying user input.
+- **Review (0.5–1 hour)**: Test in browser, post progress.
 
-- **Practice (1–2 hours)**:
-  - Create a new HTML file.
-  - Add links to:
-    - External websites (e.g., Google).
-    - Another HTML file (create a second page).
-    - An email (`mailto:`).
-  - Add images (download free images from Unsplash or use placeholders).
-  - Experiment: Link an image to a website.
-  - **Exercise**: Build a “Hobbies Page” with links to related sites and images of your hobbies.
+**Day 30: PHP Functions & Arrays (4–5 hours)**
+- **Learn (1.5–2 hours)**: Functions, arrays, array methods.
+  - Resources: PHP.net (Functions, Arrays).
+- **Practice (2–3 hours)**: Create functions to process arrays (e.g., filter skills).
+- **Mini-Project**: PHP page with array-based list.
+- **Review (0.5–1 hour)**: Debug, share on X.
 
-- **Output**: A hobbies webpage with links and images.
+**Day 31: PHP Forms (4–5 hours)**
+- **Learn (1.5–2 hours)**: GET/POST, form handling, validation.
+  - Resources: W3Schools (PHP Forms), Traversy Media (PHP).
+- **Practice (2–3 hours)**: Build a contact form with PHP validation.
+- **Mini-Project**: Dynamic contact form.
+- **Review (0.5–1 hour)**: Test form, push to GitHub.
+
+**Day 32: PHP Sessions & Cookies (4–5 hours)**
+- **Learn (1.5–2 hours)**: Sessions, cookies, user persistence.
+  - Resources: PHP.net (Sessions, Cookies).
+- **Practice (2–3 hours)**: Create a login page with session tracking.
+- **Mini-Project**: Login system with sessions.
+- **Review (0.5–1 hour)**: Test sessions, share progress.
+
+**Day 33: PHP Project – Registration Form (4–5 hours)**
+- **Learn (1.5–2 hours)**: Review forms, sessions.
+  - Resources: FreeCodeCamp (PHP Projects).
+- **Practice (2–3 hours)**: Build a registration form with validation and sessions.
+- **Mini-Project**: User registration system.
+- **Review (0.5–1 hour)**: Test functionality, post on X.
+
+**Day 34: PHP Debugging (4–5 hours)**
+- **Learn (1.5–2 hours)**: Debugging PHP, error logs, try-catch.
+  - Resources: PHP.net (Errors), Traversy Media (Debugging).
+- **Practice (2–3 hours)**: Debug your registration form and contact form.
+- **Mini-Project**: Debugged PHP forms.
+- **Review (0.5–1 hour)**: Verify fixes, push to GitHub.
+
+**Day 35: PHP & HTML Integration (4–5 hours)**
+- **Learn (1.5–2 hours)**: Embedding PHP in HTML, dynamic pages.
+  - Resources: W3Schools (PHP in HTML).
+- **Practice (2–3 hours)**: Integrate PHP with your portfolio’s contact form.
+- **Mini-Project**: Dynamic portfolio contact page.
+- **Review (0.5–1 hour)**: Test integration, share on X.
+
+##### Week 6: MySQL Basics (Days 36–42)
+**Day 36: MySQL Setup & Queries (4–5 hours)**
+- **Learn (1.5–2 hours)**: Install MySQL (via XAMPP), create databases/tables, basic queries (SELECT, INSERT).
+  - Resources: MySQL Docs, FreeCodeCamp (MySQL).
+- **Practice (2–3 hours)**: Create a database for a blog (users, posts).
+- **Mini-Project**: Blog database.
+- **Review (0.5–1 hour)**: Test queries, post progress.
+
+**Day 37: PHP & MySQL – Connect (4–5 hours)**
+- **Learn (1.5–2 hours)**: Connect PHP to MySQL using PDO.
+  - Resources: PHP.net (PDO), The Net Ninja (PHP/MySQL).
+- **Practice (2–3 hours)**: Display blog posts from MySQL in a PHP page.
+- **Mini-Project**: Blog post display page.
+- **Review (0.5–1 hour)**: Test connection, share on X.
+
+**Day 38: CRUD – Create & Read (4–5 hours)**
+- **Learn (1.5–2 hours)**: INSERT and SELECT queries with PHP.
+  - Resources: W3Schools (MySQL CRUD).
+- **Practice (2–3 hours)**: Build a form to add blog posts and display them.
+- **Mini-Project**: Blog with add/display posts.
+- **Review (0.5–1 hour)**: Test CRUD, push to GitHub.
+
+**Day 39: CRUD – Update & Delete (4–5 hours)**
+- **Learn (1.5–2 hours)**: UPDATE and DELETE queries.
+  - Resources: The Net Ninja (CRUD).
+- **Practice (2–3 hours)**: Add edit and delete buttons to your blog.
+- **Mini-Project**: Blog with full CRUD.
+- **Review (0.5–1 hour)**: Test functionality, share progress.
+
+**Day 40: MySQL Security (4–5 hours)**
+- **Learn (1.5–2 hours)**: Sanitize inputs, prevent SQL injection (prepared statements).
+  - Resources: PHP.net (Security), MDN (Security).
+- **Practice (2–3 hours)**: Secure your blog’s forms with PDO prepared statements.
+- **Mini-Project**: Secure blog app.
+- **Review (0.5–1 hour)**: Test security, post on X.
+
+**Day 41: MySQL Project – Blog (4–5 hours)**
+- **Learn (1.5–2 hours)**: Review CRUD, security.
+  - Resources: FreeCodeCamp (PHP Projects).
+- **Practice (2–3 hours)**: Build a complete blog with user login and post management.
+- **Mini-Project**: Functional blog app.
+- **Review (0.5–1 hour)**: Test features, push to GitHub.
+
+**Day 42: MySQL Optimization (4–5 hours)**
+- **Learn (1.5–2 hours)**: Indexes, query optimization.
+  - Resources: MySQL Docs (Optimization).
+- **Practice (2–3 hours)**: Optimize your blog’s database queries.
+- **Mini-Project**: Optimized blog app.
+- **Review (0.5–1 hour)**: Test performance, share on X.
+
+##### Week 7: Backend Integration (Days 43–49)
+**Day 43: REST APIs Intro (4–5 hours)**
+- **Learn (1.5–2 hours)**: REST concepts, GET/POST, JSON.
+  - Resources: MDN (REST), Postman Docs.
+- **Practice (2–3 hours)**: Create a simple PHP API for your blog (e.g., return posts as JSON).
+- **Mini-Project**: Blog API.
+- **Review (0.5–1 hour)**: Test with Postman, post progress.
+
+**Day 44: Frontend-Backend Integration (4–5 hours)**
+- **Learn (1.5–2 hours)**: Fetch API with PHP backend.
+  - Resources: The Net Ninja (API Integration).
+- **Practice (2–3 hours)**: Connect your JavaScript frontend to your PHP API.
+- **Mini-Project**: Blog with JavaScript frontend.
+- **Review (0.5–1 hour)**: Test integration, share on X.
+
+**Day 45: Full-Stack Project – Task Manager (4–5 hours)**
+- **Learn (1.5–2 hours)**: Review PHP, MySQL, JavaScript integration.
+  - Resources: Frontend Mentor (Task projects).
+- **Practice (2–3 hours)**: Start a task manager (add, view tasks).
+- **Mini-Project**: Task manager backend.
+- **Review (0.5–1 hour)**: Test functionality, push to GitHub.
+
+**Day 46: Task Manager – Frontend (4–5 hours)**
+- **Practice (2–3 hours)**: Build task manager frontend with JavaScript/Tailwind.
+- **Mini-Project**: Task manager frontend.
+- **Review (0.5–1 hour)**: Test UI, share progress.
+- **Learn (1.5–2 hours)**: Review frontend-backend connection.
+
+**Day 47: Task Manager – Integration (4–5 hours)**
+- **Practice (2–3 hours)**: Connect task manager frontend to PHP/MySQL backend.
+- **Mini-Project**: Full-stack task manager.
+- **Review (0.5–1 hour)**: Test features, post on X.
+- **Learn (1.5–2 hours)**: Review full-stack flow.
+
+**Day 48: Backend Deployment (4–5 hours)**
+- **Learn (1.5–2 hours)**: Heroku deployment, PHP hosting.
+  - Resources: Heroku Docs, PHP Hosting Guides.
+- **Practice (2–3 hours)**: Deploy your blog or task manager backend to Heroku.
+- **Mini-Project**: Deployed backend.
+- **Review (0.5–1 hour)**: Test live API, push to GitHub.
+
+**Day 49: Full-Stack Debugging (4–5 hours)**
+- **Learn (1.5–2 hours)**: Debug full-stack apps (frontend, backend, API).
+  - Resources: Traversy Media (Debugging).
+- **Practice (2–3 hours)**: Debug your task manager for errors.
+- **Mini-Project**: Debugged task manager.
+- **Review (0.5–1 hour)**: Verify fixes, share on X.
 
 ---
 
-## Day 4: Semantic HTML (2–3 hours)
-**Goal**: Use HTML5 semantic elements for better structure.
+#### Phase 3: Full-Stack Portfolio (Days 50–56)
+**Goal**: Build and deploy a capstone project, finalize portfolio.
 
-- **Learn (1 hour)**:
-  - Study semantic tags: `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`.
-  - Understand why semantics matter (SEO, accessibility).
-  - Learn the `<div>` tag for grouping (non-semantic).
-  - **Resources**:
-    - MDN: “HTML5 semantic elements”
-    - W3Schools: “HTML Semantic Elements”
+**Day 50: Full-Stack Project – E-Commerce Prototype (4–5 hours)**
+- **Learn (1.5–2 hours)**: Review full-stack architecture.
+  - Resources: Frontend Mentor (E-Commerce).
+- **Practice (2–3 hours)**: Start an e-commerce app (product list, cart).
+- **Mini-Project**: E-commerce backend (products table).
+- **Review (0.5–1 hour)**: Test backend, post progress.
 
-- **Practice (1–2 hours)**:
-  - Refactor your Day 3 “Hobbies Page”:
-    - Use `<header>` for the title.
-    - Add `<nav>` with links to other pages.
-    - Organize content in `<main>`, `<section>`, and `<footer>`.
-  - Create a new page with a blog-post layout using semantic tags.
-  - **Exercise**: Build a “Personal Blog Homepage” with a header, navigation, and a few article previews.
+**Day 51: E-Commerce – Frontend (4–5 hours)**
+- **Practice (2–3 hours)**: Build e-commerce frontend with JavaScript/Tailwind.
+- **Mini-Project**: E-commerce frontend.
+- **Review (0.5–1 hour)**: Test UI, share on X.
+- **Learn (1.5–2 hours)**: Review frontend techniques.
 
-- **Output**: A semantic blog homepage.
+**Day 52: E-Commerce – Integration (4–5 hours)**
+- **Practice (2–3 hours)**: Connect e-commerce frontend to PHP/MySQL backend.
+- **Mini-Project**: Full-stack e-commerce prototype.
+- **Review (0.5–1 hour)**: Test features, push to GitHub.
+- **Learn (1.5–2 hours)**: Review integration.
 
----
+**Day 53: Portfolio Optimization (4–5 hours)**
+- **Learn (1.5–2 hours)**: Accessibility, performance, SEO basics.
+  - Resources: WebAIM, Google Lighthouse.
+- **Practice (2–3 hours)**: Optimize all projects (portfolio, blog, e-commerce).
+- **Mini-Project**: Optimized portfolio.
+- **Review (0.5–1 hour)**: Check Lighthouse scores, share on X.
 
-## Day 5: Forms & Input (2–3 hours)
-**Goal**: Create interactive forms.
+**Day 54: Portfolio READMEs (4–5 hours)**
+- **Learn (1.5–2 hours)**: Writing professional READMEs.
+  - Resources: GitHub Docs (README).
+- **Practice (2–3 hours)**: Write READMEs for all projects.
+- **Mini-Project**: Portfolio with READMEs.
+- **Review (0.5–1 hour)**: Review READMEs, push to GitHub.
 
-- **Learn (1 hour)**:
-  - Study forms: `<form>`, `action`, `method`.
-  - Learn input types: `<input>` (text, email, password, radio, checkbox), `<textarea>`, `<select>`, `<button>`.
-  - Understand labels (`<label>`) and form attributes (`id`, `for`, `required`).
-  - **Resources**:
-    - FreeCodeCamp: “HTML Forms” (video or text)
-    - MDN: “Web forms — Working with user data”
+**Day 55: Final Deployment (4–5 hours)**
+- **Practice (2–3 hours)**: Deploy all projects (Netlify for frontend, Heroku for backend).
+- **Mini-Project**: Fully deployed portfolio.
+- **Review (0.5–1 hour)**: Test live sites, share links on X.
+- **Learn (1.5–2 hours)**: Review deployment process.
 
-- **Practice (1–2 hours)**:
-  - Create a contact form with:
-    - Text input for name and email.
-    - Radio buttons for contact preference.
-    - A dropdown (`<select>`) for subject.
-    - A `<textarea>` for messages.
-    - A submit button.
-  - Experiment: Add `required` and test form validation in the browser.
-  - **Exercise**: Build a “Sign-Up Page” with a form for user registration.
-
-- **Output**: A functional sign-up form (static, no backend yet).
-
----
-
-## Day 6: Tables & Advanced Attributes (2–3 hours)
-**Goal**: Work with tables and explore advanced HTML features.
-
-- **Learn (1 hour)**:
-  - Study tables: `<table>`, `<tr>`, `<td>`, `<th>`, `<thead>`, `<tbody>`.
-  - Learn attributes: `colspan`, `rowspan`.
-  - Explore global attributes: `class`, `id`, `data-*`.
-  - Understand basic metadata: `<meta>` tags (charset, viewport).
-  - **Resources**:
-    - W3Schools: “HTML Tables” and “HTML Global Attributes”
-    - MDN: “HTML table basics”
-
-- **Practice (1–2 hours)**:
-  - Create a table displaying a schedule (e.g., weekly tasks).
-  - Use `colspan` or `rowspan` for merged cells.
-  - Add `class` and `id` to elements in your Day 5 form.
-  - Add meta tags to all your pages (e.g., `<meta charset="UTF-8">`).
-  - **Exercise**: Build a “Course Schedule Page” with a table and meta tags.
-
-- **Output**: A course schedule webpage with a table.
+**Day 56: Review & Next Steps (4–5 hours)**
+- **Practice (2–3 hours)**: Test all projects, fix any issues.
+- **Mini-Project**: Finalized portfolio with 3–5 projects.
+- **Review (0.5–1 hour)**: Reflect on progress, post final update on X.
+- **Learn (1.5–2 hours)**: Plan next steps (e.g., advanced React, Node.js, or job prep).
 
 ---
 
-## Day 7: Mini-Project & Review (2–3 hours)
-**Goal**: Combine all skills in a portfolio project and solidify knowledge.
-
-- **Learn (30 min)**:
-  - Review all topics: structure, text, lists, links, images, semantics, forms, tables.
-  - Skim MDN’s “HTML elements reference” for unfamiliar tags.
-  - **Resource**: MDN Web Docs (HTML reference)
-
-- **Practice (2–2.5 hours)**:
-  - **Mini-Project**: Build a “Personal Portfolio”:
-    - Homepage with semantic structure (`<header>`, `<nav>`, `<main>`, `<footer>`).
-    - About section with text and an image.
-    - Projects section with a table or list of fake projects.
-    - Contact form with inputs and labels.
-    - Links to external profiles (e.g., GitHub).
-  - Test accessibility (e.g., alt text, labels).
-  - Debug any issues (use browser DevTools).
-  - **Exercise**: Create a second page (e.g., “Resume”) linked from the portfolio.
-
-- **Output**: A complete portfolio website with multiple pages.
+### Tips for Success
+- **Note-Taking**: Use Notion or a notebook to log daily tasks, code snippets, and resources.
+- **Breaks**: Split 4–5 hours into 2–3 sessions (e.g., 2 hours morning, 2–3 hours evening).
+- **Projects**: Save all code in a “WebDev_Vacation” folder, push to GitHub daily.
+- **Community**: Post daily progress on X (#WebDev) for feedback and motivation.
+- **Debugging**: Use Chrome DevTools for frontend, XAMPP logs for PHP.
+- **Portfolio**: Aim for 3–5 projects (portfolio, to-do list, weather app, blog, e-commerce).
+- **Next Steps**: After August 5, explore React/Node.js or prep for job applications.
 
 ---
 
-## Tips for Success
-- **Daily Routine**:
-  - 1 hour: Watch/read tutorials or docs.
-  - 1–2 hours: Code exercises and projects.
-- **Practice**:
-  - Save all files in a folder (e.g., “HTML_Week”).
-  - Use GitHub to track progress (optional).
-- **Debug**:
-  - Use Chrome DevTools (right-click > Inspect) to check your HTML.
-- **Resources**:
-  - FreeCodeCamp, MDN Web Docs, W3Schools.
-  - X communities: Follow #WebDev or #HTML for tips.
-- **Next Steps**:
-  - Start CSS to style your portfolio (Flexbox, Grid).
-  - Explore JavaScript for interactivity.
-
-
-
----
-
-This guide keeps you hands-on with daily projects to reinforce learning. If you want me to search X for HTML tips or provide a sample HTML file for any day’s project, let me know! Stick to the 2–3 hours daily, and you’ll have a strong HTML foundation by Day 7.
+If you want:
+- More sample projects (e.g., CSS layout, JavaScript app).
+- A detailed breakdown of any day/week.
+- An X search for #WebDev tips or community resources.
+Let me know, and I’ll customize further! Grind hard, and you’ll have a killer portfolio by August 5.
