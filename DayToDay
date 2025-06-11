@@ -1,42 +1,204 @@
-| Day | Topic                 | Description                                      | Practice Task                                              |
-| --- | --------------------- | ------------------------------------------------ | ---------------------------------------------------------- |
-| 1   | Introduction to HTML  | Learn what HTML is, structure of HTML document   | Create a basic HTML page with `<html>`, `<head>`, `<body>` |
-| 2   | Headings & Paragraphs | Use `<h1>` to `<h6>` and `<p>`                   | Write an article with headings and paragraphs              |
-| 3   | Formatting Text       | Use `<strong>`, `<em>`, `<br>`, `<hr>`           | Style a paragraph using formatting tags                    |
-| 4   | Links                 | Use `<a>` to link pages or external sites        | Link your page to Google and another page                  |
-| 5   | Images                | Use `<img>` with `src` and `alt`                 | Insert 2 images with alt text                              |
-| 6   | Lists                 | Create ordered `<ol>` and unordered `<ul>` lists | Make a shopping list and a recipe step list                |
-| 7   | Review & Mini Project | Combine all learned elements                     | Create a personal profile page                             |
+Below is a 7-day step-by-step guide to kickstart your journey to mastering HTML, designed for a complete beginner. Each day builds on the previous one, assuming you’ll dedicate 2–3 hours daily (split between learning and practice). The focus is on understanding HTML5 fundamentals, semantic structure, and practical application through small projects. By the end, you’ll have a solid foundation to create static web pages and be ready to move to CSS.
 
-| Day | Topic                    | Description                                       | Practice Task                                   |
-| --- | ------------------------ | ------------------------------------------------- | ----------------------------------------------- |
-| 8   | HTML Attributes          | Understand attributes like `id`, `class`, `style` | Add `id` and `class` to headings and paragraphs |
-| 9   | Tables                   | Learn `<table>`, `<tr>`, `<td>`, `<th>`           | Make a weekly schedule table                    |
-| 10  | Forms: Basics            | Use `<form>`, `<input>`, `<label>`                | Create a login form                             |
-| 11  | Forms: Types             | Add radio, checkbox, password fields              | Create a registration form                      |
-| 12  | Forms: Select & Textarea | Use `<select>` and `<textarea>`                   | Create a feedback form                          |
-| 13  | Div & Span               | Understand block vs inline containers             | Wrap parts of a page using `div` and `span`     |
-| 14  | Review & Practice        | Practice full form layout                         | Create a contact form page                      |
+---
 
-| Day | Topic                      | Description                                          | Practice Task                                                   |
-| --- | -------------------------- | ---------------------------------------------------- | --------------------------------------------------------------- |
-| 15  | Embedding Videos           | Use `<video>` and `<iframe>`                         | Embed a YouTube video                                           |
-| 16  | Audio                      | Use `<audio>` tag                                    | Add background music to a page                                  |
-| 17  | HTML5 Semantic Tags        | Use `<header>`, `<footer>`, `<article>`, `<section>` | Create a blog layout with semantic elements                     |
-| 18  | Meta Tags                  | Add SEO and viewport tags in `<head>`                | Add metadata and keywords to your page                          |
-| 19  | Favicon                    | Add a favicon to your page                           | Use a sample `.ico` file and link in `<head>`                   |
-| 20  | Forms: Advanced Attributes | Use `required`, `pattern`, `placeholder`             | Enhance your form with validations                              |
-| 21  | Review & Mini Project      | Combine semantic and multimedia                      | Make a small landing page with video, form, and semantic layout |
 
-| Day | Topic                      | Description                             | Practice Task                                          |
-| --- | -------------------------- | --------------------------------------- | ------------------------------------------------------ |
-| 22  | Accessibility (a11y)       | Add `aria` attributes, proper labels    | Make a form accessible with screen reader hints        |
-| 23  | Canvas Intro               | Use `<canvas>` for drawing              | Draw a basic shape using HTML canvas                   |
-| 24  | SVG                        | Embed scalable vector graphics          | Add an inline SVG logo                                 |
-| 25  | Data Attributes            | Use `data-*` attributes                 | Create buttons with data attributes                    |
-| 26  | HTML APIs (Geo, Drag-drop) | Intro to geolocation and drag/drop      | Create a draggable image                               |
-| 27  | Web Storage                | Use `localStorage` and `sessionStorage` | Save and retrieve user name from localStorage          |
-| 28  | Integrating CSS            | Link external, internal, inline CSS     | Style a page with all three methods                    |
-| 29  | Integrating JavaScript     | Use `<script>` to add JS                | Alert user on button click                             |
-| 30  | Final Project              | Portfolio or resume website             | Build a full personal website using everything learned |
 
+# 7-Day HTML Mastery Guide for Beginners
+
+This guide is for complete beginners aiming to master HTML basics in 7 days, with 2–3 hours of daily study and practice. You’ll learn through tutorials, exercises, and small projects. Tools needed: a text editor (e.g., VS Code) and a browser (e.g., Chrome).
+
+---
+
+## Day 1: HTML Basics & Setup (2–3 hours)
+**Goal**: Understand HTML structure and create your first webpage.
+
+- **Learn (1 hour)**:
+  - Watch/read: What is HTML? How browsers render HTML.
+  - Study basic syntax: tags, elements, attributes.
+  - Learn core tags: `<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`, `<title>`.
+  - Understand nesting and hierarchy.
+  - **Resources**:
+    - FreeCodeCamp: “HTML Full Course” (first 30 min)
+    - MDN Web Docs: “Getting started with HTML”
+    - W3Schools: “HTML Introduction”
+
+- **Practice (1–2 hours)**:
+  - Set up VS Code and create an `index.html` file.
+  - Write a basic HTML page with:
+    - `<!DOCTYPE html>` declaration
+    - `<html>`, `<head>`, `<title>`, and `<body>` tags
+    - A heading (`<h1>`) and paragraph (`<p>`)
+  - Open in a browser to see the result.
+  - Experiment: Add more paragraphs and change text.
+  - **Exercise**: Create a page introducing yourself (name, hobbies).
+
+- **Output**: A simple HTML file displaying text in a browser.
+
+---
+
+## Day 2: Text Formatting & Lists (2–3 hours)
+**Goal**: Format text and create lists.
+
+- **Learn (1 hour)**:
+  - Study text tags: `<h1>`–`<h6>`, `<p>`, `<strong>`, `<em>`, `<br>`, `<hr>`.
+  - Learn lists: ordered (`<ol>`), unordered (`<ul>`), list items (`<li>`).
+  - Understand inline vs. block elements.
+  - **Resources**:
+    - W3Schools: “HTML Text Formatting” and “HTML Lists”
+    - MDN: “HTML text fundamentals”
+
+- **Practice (1–2 hours)**:
+  - Create a new HTML file.
+  - Write a page with:
+    - Headings of different levels.
+    - Bold and italic text in a paragraph.
+    - A bulleted list of your favorite foods.
+    - A numbered list of your top 3 goals.
+  - Experiment: Nest a list inside another list (e.g., sub-items).
+  - **Exercise**: Build a “Recipe Page” with a title, ingredients list (`<ul>`), and steps (`<ol>`).
+
+- **Output**: A recipe webpage with formatted text and lists.
+
+---
+
+## Day 3: Links & Images (2–3 hours)
+**Goal**: Add navigation and media to your pages.
+
+- **Learn (1 hour)**:
+  - Study links: `<a>` tag, `href` attribute, absolute vs. relative URLs.
+  - Learn images: `<img>` tag, `src`, `alt`, and `title` attributes.
+  - Understand accessibility (e.g., meaningful `alt` text).
+  - **Resources**:
+    - FreeCodeCamp: “HTML Links and Images” (video or text)
+    - MDN: “Links” and “Images in HTML”
+
+- **Practice (1–2 hours)**:
+  - Create a new HTML file.
+  - Add links to:
+    - External websites (e.g., Google).
+    - Another HTML file (create a second page).
+    - An email (`mailto:`).
+  - Add images (download free images from Unsplash or use placeholders).
+  - Experiment: Link an image to a website.
+  - **Exercise**: Build a “Hobbies Page” with links to related sites and images of your hobbies.
+
+- **Output**: A hobbies webpage with links and images.
+
+---
+
+## Day 4: Semantic HTML (2–3 hours)
+**Goal**: Use HTML5 semantic elements for better structure.
+
+- **Learn (1 hour)**:
+  - Study semantic tags: `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`.
+  - Understand why semantics matter (SEO, accessibility).
+  - Learn the `<div>` tag for grouping (non-semantic).
+  - **Resources**:
+    - MDN: “HTML5 semantic elements”
+    - W3Schools: “HTML Semantic Elements”
+
+- **Practice (1–2 hours)**:
+  - Refactor your Day 3 “Hobbies Page”:
+    - Use `<header>` for the title.
+    - Add `<nav>` with links to other pages.
+    - Organize content in `<main>`, `<section>`, and `<footer>`.
+  - Create a new page with a blog-post layout using semantic tags.
+  - **Exercise**: Build a “Personal Blog Homepage” with a header, navigation, and a few article previews.
+
+- **Output**: A semantic blog homepage.
+
+---
+
+## Day 5: Forms & Input (2–3 hours)
+**Goal**: Create interactive forms.
+
+- **Learn (1 hour)**:
+  - Study forms: `<form>`, `action`, `method`.
+  - Learn input types: `<input>` (text, email, password, radio, checkbox), `<textarea>`, `<select>`, `<button>`.
+  - Understand labels (`<label>`) and form attributes (`id`, `for`, `required`).
+  - **Resources**:
+    - FreeCodeCamp: “HTML Forms” (video or text)
+    - MDN: “Web forms — Working with user data”
+
+- **Practice (1–2 hours)**:
+  - Create a contact form with:
+    - Text input for name and email.
+    - Radio buttons for contact preference.
+    - A dropdown (`<select>`) for subject.
+    - A `<textarea>` for messages.
+    - A submit button.
+  - Experiment: Add `required` and test form validation in the browser.
+  - **Exercise**: Build a “Sign-Up Page” with a form for user registration.
+
+- **Output**: A functional sign-up form (static, no backend yet).
+
+---
+
+## Day 6: Tables & Advanced Attributes (2–3 hours)
+**Goal**: Work with tables and explore advanced HTML features.
+
+- **Learn (1 hour)**:
+  - Study tables: `<table>`, `<tr>`, `<td>`, `<th>`, `<thead>`, `<tbody>`.
+  - Learn attributes: `colspan`, `rowspan`.
+  - Explore global attributes: `class`, `id`, `data-*`.
+  - Understand basic metadata: `<meta>` tags (charset, viewport).
+  - **Resources**:
+    - W3Schools: “HTML Tables” and “HTML Global Attributes”
+    - MDN: “HTML table basics”
+
+- **Practice (1–2 hours)**:
+  - Create a table displaying a schedule (e.g., weekly tasks).
+  - Use `colspan` or `rowspan` for merged cells.
+  - Add `class` and `id` to elements in your Day 5 form.
+  - Add meta tags to all your pages (e.g., `<meta charset="UTF-8">`).
+  - **Exercise**: Build a “Course Schedule Page” with a table and meta tags.
+
+- **Output**: A course schedule webpage with a table.
+
+---
+
+## Day 7: Mini-Project & Review (2–3 hours)
+**Goal**: Combine all skills in a portfolio project and solidify knowledge.
+
+- **Learn (30 min)**:
+  - Review all topics: structure, text, lists, links, images, semantics, forms, tables.
+  - Skim MDN’s “HTML elements reference” for unfamiliar tags.
+  - **Resource**: MDN Web Docs (HTML reference)
+
+- **Practice (2–2.5 hours)**:
+  - **Mini-Project**: Build a “Personal Portfolio”:
+    - Homepage with semantic structure (`<header>`, `<nav>`, `<main>`, `<footer>`).
+    - About section with text and an image.
+    - Projects section with a table or list of fake projects.
+    - Contact form with inputs and labels.
+    - Links to external profiles (e.g., GitHub).
+  - Test accessibility (e.g., alt text, labels).
+  - Debug any issues (use browser DevTools).
+  - **Exercise**: Create a second page (e.g., “Resume”) linked from the portfolio.
+
+- **Output**: A complete portfolio website with multiple pages.
+
+---
+
+## Tips for Success
+- **Daily Routine**:
+  - 1 hour: Watch/read tutorials or docs.
+  - 1–2 hours: Code exercises and projects.
+- **Practice**:
+  - Save all files in a folder (e.g., “HTML_Week”).
+  - Use GitHub to track progress (optional).
+- **Debug**:
+  - Use Chrome DevTools (right-click > Inspect) to check your HTML.
+- **Resources**:
+  - FreeCodeCamp, MDN Web Docs, W3Schools.
+  - X communities: Follow #WebDev or #HTML for tips.
+- **Next Steps**:
+  - Start CSS to style your portfolio (Flexbox, Grid).
+  - Explore JavaScript for interactivity.
+
+
+
+---
+
+This guide keeps you hands-on with daily projects to reinforce learning. If you want me to search X for HTML tips or provide a sample HTML file for any day’s project, let me know! Stick to the 2–3 hours daily, and you’ll have a strong HTML foundation by Day 7.
