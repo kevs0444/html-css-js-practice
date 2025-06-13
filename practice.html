@@ -2,42 +2,46 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width initial-scale=1.0">
-        <title>Hobbies</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
     </head>
     <body>
         <header>
             <h1>My Portfolio</h1>
             <nav>
                 <ul>
-                    <li><a href="Home">Home</a></li>
-                    <li><a href="Hobbies">Hobbies</a></li>
-                    <li><a href="Contact">Contact</a></li>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="hobbies">Hobbies</a></li>
+                    <li><a href="contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
-        <section>
-            <h2>My Hobbies</h2>
-            <p>Here are things I love to do:</p>
-            <ul>
-                <li>
-                    <p>Gaming</p>
-                    <ul>
-                        <li><p>Favorite Game: Genshin</p></li>
-                    </ul>
-                </li>
-                <li><p>Reading</p></li>
-                <li><p>Coding</p></li>
-            </ul>
-        </section>
-        <section>
-            <h2>About Gaming</h2>
-            <p>I enjot genshin for its challenges.</p>
-            <img src="https://cdn1.epicgames.com/offer/879b0d8776ab46a59a129983ba78f0ce/genshintall_1200x1600-4a5697be3925e8cb1f59725a9830cafc" alt="genshin image">
-            <p>learn more at <a href="https://genshin.hoyoverse.com/en/">Genshin</a></p>
-        </section>
+        <main>
+            <article>
+                <h2>Contact Me</h2>
+                <p>Reach out with ideas or questions!</p>
+                <form action="#" method="POST">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                     <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                     <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </article>
+        </main>
+         <aside>
+                <p>Connect me on<a href="https://www.facebook.com/KevinAlcantara04/">Facebook</a></p>
+        </aside>
         <footer>
-            <p>2025 Mar Kevin Alcantara. All rights reserved.</p>
+            <p>© 2025 Mar Kevin Alcantara. All rights reserved.</p>
         </footer>
     </body>
 </html>
