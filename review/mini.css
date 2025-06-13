@@ -1,0 +1,35 @@
+body {
+    background-color: #adb5bd;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+header {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+main {
+    padding: 20px;
+}
+.intro {
+    background-color: #e9ecef;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+.hobby-list {
+    font-size: 18px;
+    list-style-type: none;
+}
+button {
+    background-color: #343a40;
+    color: white;
+    padding: 10px, 20px;
+    border: none;
+}
+footer {
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+}
