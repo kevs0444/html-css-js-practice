@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    background-color: white;
+    background-color: #f8f9fa;
 }
 header {
     background-color: #333;
@@ -24,10 +24,18 @@ nav ul li a {
 main {
     padding: 20px
 }
+.home {
+    background-color: #495057;
+    padding: 15px;
+}
+.intro-text {
+    color: white;
+}
 .intro {
-    background-color: #e0e0e0;
+    background-color: #6c757d;
     padding: 15px;
     border: 1px solid #ccc;
+    color:white
 }
 .hobby-list{
     font-size: 18px;
