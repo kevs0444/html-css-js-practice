@@ -1,72 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, intial-scale=1.0">
-        <title>Practice</title>
-    </head>
-    <body>
-        <header>
-            <h1>My Portfolio</h1>
-            <nav>
-                <ul>
-                    <li><a href="home">Home</a></li>
-                    <li><a href="hobbies">Hobbies</a></li>
-                    <li><a href="contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section>
-            <div>
-                <h2>Hi, I'm Mar Kevin Alcantara</h2>
-                <p>Welcome to my portfolio! I'm learning web development to become software engineer.</p>
-            </div>
-        </section>
-        <section>
-            <div>
-                <h2>My Hobbies</h2>
-                <p>Things I love to do:</p>
-                <ul>
-                    <li>Gaming</li>
-                        <ol>
-                            <li>Mobile Legends</li>
-                            <li>Genshin Impact</li>
-                        </ol>
-                    <li>Reading</li>
-                    <li>Coding</li>
-                </ul>
-            </div>
-            <div>
-                <p>Check out <a href="https://genshin.hoyoverse.com/en/gift">Genshin</a></p>
-                <img src="https://cdn1.epicgames.com/offer/879b0d8776ab46a59a129983ba78f0ce/genshintall_1200x1600-4a5697be3925e8cb1f59725a9830cafc" alt="gensin image">
-            </div>
-        </section>
-        <main>
-            <article>
-                <h1>Contact Me</h1>
-                <p>Reach out with ideas or questions!</p>
-                <form action="#" method="POST">
-                    <div>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div>
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div>
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" rows="4" required></textarea>
-                    </div>
-                    <button type="submit">Send</button>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div>
+            <h2>Hi, I'm Mar Kevin Alcantara</h2>
+            <p>Welcome to my portfolio! I'm learning web development to become a software engineer.</p>
+        </div>
+    </section>
+    <section id="hobbies">
+        <div>
+            <h2>My Hobbies</h2>
+            <p>Things I love to do:</p>
+            <ul>
+                <li>Gaming
+                    <ol>
+                        <li>Mobile Legends</li>
+                        <li>Genshin Impact</li>
+                    </ol>
+                </li>
+                <li>Reading</li>
+                <li>Coding</li>
+            </ul>
+        </div>
+        <div>
+            <p>Check out <a href="https://genshin.hoyoverse.com/en/gift" target="_blank">Genshin</a></p>
+            <img src="https://cdn1.epicgames.com/offer/879b0d8776ab46a59a129983ba78f0ce/genshintall_1200x1600-4a5697be3925e8cb1f59725a9830cafc" alt="genshin image">
+        </div>
+    </section>
+    <main id="contact">
+        <article>
+            <h2>Contact Me</h2>
+            <p>Reach out with ideas or questions!</p>
+            <form action="#" method="POST">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send</button>
                 </form>
-            </article> 
-        </main>
-        <aside>
-            <p>Connect on <a href="https://www.facebook.com/KevinAlcantara04/">Fb!</a></p>
-        </aside>
-    </body>
+        </article>
+    </main>
+    <aside>
+        <p>Connect on <a href="https://www.facebook.com/KevinAlcantara04/" target="_blank">Fb!</a></p>
+    </aside>
     <footer>
         <p>© 2025 Mar Kevin Alcantara. All rights reserved.</p>
     </footer>
+</body>
 </html>
