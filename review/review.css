@@ -1,0 +1,52 @@
+body {
+    background-color: #adb5bd;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+header {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+main {
+    padding: 20px;
+}
+.section-headings {
+    color: #343a40;
+    margin-bottom: 15px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+input, textarea {
+    width: 100%;
+    max-width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+button {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+.schedule-table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 500px;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+th {
+    background-color: #e9ecef;
+}
+footer {
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+}
