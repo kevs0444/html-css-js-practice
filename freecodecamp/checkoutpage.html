@@ -1,10 +1,53 @@
-<div>
-  <span id="volume-label">Volume</span>
-  <span id="volume-details">Adjust the volume level</span>
-  <input
-    type="range"
-    min="0"
-    max="100"
-    value="30"
-    aria-labelledby="volume-label volume-details">
-</div>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aria Lesson</title>
+    </head>
+    <body>
+      <div role="button">Click Me</div>
+      <div role="tablist" aria-label="Football Match Dashboard">
+        <button
+          role="tab"
+          aria-selected="true"
+          aria-controls="match-info-panel"
+          id="match-info-tab">
+            Match Info
+        </button>
+
+        <button
+          role="tab"
+          aria-selected="false"
+          aria-controls="player-stats-panel"
+          id="player-stats-tab">
+          Player Stats
+        </button>
+      </div>
+      <div 
+        role="tabpanel"
+        id="match-info-panel" 
+        aria-labelledby="match-info-tab"
+      >
+        <p>
+          Details about the match, including date,
+          time, venue, and current score.
+        </p>
+      </div>
+
+      <div
+        role="tabpanel"
+        id="player-stats-panel"
+        aria-labelledby="player-stats-tab"
+        hidden
+      >
+        <p>
+          Individual player statistics such as goals,
+          assists, and minutes played.
+        </p>
+      </div>
+      <div aria-live="assertive">
+        <p>Your session will expire in 30 seconds.</p>
+      </div>
+    </body>
+</html>
