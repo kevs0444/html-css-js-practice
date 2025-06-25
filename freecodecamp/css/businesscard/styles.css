@@ -1,6 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: rosybrown;
+    font-family: sans-serif;
+    background-color: #343a40;
 }
 .business-card {
     width: 300px;
@@ -25,4 +25,5 @@ p {
 a {
     font-style: normal;
     text-decoration: none;
+    color: black;
 }
