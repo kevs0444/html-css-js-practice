@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    min-width: 200px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.todo-list {
+    list-style-type: none;
+}
+.sub-item {
+    list-style-type: none; 
+}
+.sub-item-link {
+    color: grey;
+    text-decoration: none;
+}
+.sub-item-link:visited {   /* Color when link has been visited */
+    color: red;
+}
+.sub-item-link:hover {     /* Color when mouse hovers */
+    color: blue;
+}
+.sub-item-link:focus {     /* Visible outline for accessibility */
+    outline: 2px solid black;
+    outline-offset: 2px;
+}
+.sub-item-link:active {    /* Color when link is being clicked */
+    color: yellow;
+}
