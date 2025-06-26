@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #343a40;
 }
 .business-card {
@@ -11,9 +11,13 @@ body {
     margin-right: auto;
     background-color: white;
     text-align: center;
+   
 }
 .profile-image {
     max-width: 100%;
+    border-color: black;
+    box-shadow: #343a40;
+    border-radius: 15px;
 }
 h1 {
     text-align: center;
