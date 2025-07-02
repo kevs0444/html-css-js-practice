@@ -4,6 +4,7 @@
     border-radius: 15px;
     width: 300px;
     text-align: center;
+    margin: 0 auto;
 }
 .post-img {
     width: 100%;
@@ -19,17 +20,17 @@
     margin: 10px;
 }
 .read-more {
-  color: blue;
-  background-color: aqua;
-  margin: 10px;
-  padding: 10px;
-  border: 1px solid black;
-  border-radius: 15px;
-  display: inline-block;
-  transition: background-color 0.3s ease, color 0.3s ease;
+    color: blue;
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .read-more:hover {
-  color: yellowgreen;
-  background-color: lightblue; /* ✅ Added this */
+    color: yellowgreen;
+    background-color: lightblue;
 }
