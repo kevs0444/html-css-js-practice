@@ -1,0 +1,21 @@
+.btn:hover {
+    background-color: darkgreen;
+    color:white;
+    cursor: pointer;
+}
+
+input:focus {
+    outline: 2px solid darkgreen;
+    border-radius: 4px;
+}
+
+a:visited {
+    color: cyan;
+}
+
+.checkbox:checked {
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background-color: red;
+}
